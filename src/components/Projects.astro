@@ -1,0 +1,51 @@
+---
+import Sections from './Sections/Sections.astro'
+import { projects } from '../cv.json'
+---
+
+<Sections title="Projects">
+    <ul>
+        {projects.map(({ name, description, github, highlights }) => (
+            <li>
+                <article>
+                    <header>
+                        <a href={github} target="_blank" rel="noopener noreferrer" title="ver proyecto en GitHub">
+                            <h3>{name}</h3>
+                        </a>
+                        <p>{description}</p>
+                    </header>
+                    <footer>
+                        <p>{highlights}</p>
+                    </footer>
+                </article>
+            </li>
+        ))}
+    </ul>
+</Sections>
+
+<style>
+    ul {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+    article {
+        background: var(--color-bg);
+        border-radius: 0.5rem;
+        padding: 16px;
+        box-shadow: var(--shadow);
+        flex-direction: column;
+        height: 100%;
+    }
+    header{
+
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+        font-size: 0.6rem;
+    }
+</style>

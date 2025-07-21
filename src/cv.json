@@ -1,0 +1,109 @@
+{
+  "basics": {
+    "name": "Samuel Josué Campos Reyes",
+    "label": "Desarrollador Web Junior",
+    "image": "/images/Samuel-Campos.jpg",
+    "email": "samuelj.camposr@gmail.com",
+    "phone": "+58 1123964649",
+    "url": "https://linkedin.com/in/samuel-campos-reyes",
+    "summary": "Conocimientos en HTML, CSS, JavaScript. Experiencia en desarrollo de aplicaciones web con frameworks como Astro. Habilidades en diseño responsivo y accesibilidad web. Capacidad para trabajar en equipo y aprender rápidamente nuevas tecnologías.",
+    "location": {
+      "address": "Villa Madero",
+      "postalCode": "",
+      "city": "Buenos Aires",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "samuel-campos-reyes",
+        "url": "https://linkedin.com/in/samuel-campos-reyes"
+      },
+      {
+        "network": "GitHub",
+        "username": "zetac-rpg",
+        "url": "https://github.com/zeta-rpg"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "ProGente (BBVA Provincial)",
+      "position": "Agente de digitalización y tipificación",
+      "url": "",
+      "startDate": "2019-04-01",
+      "endDate": "2019-07-01",
+      "summary": "Digitalización, clasificación y carga de documentación bancaria en sistemas internos.",
+      "highlights": [
+        "Clasificación y tipificación de contratos, documentos de identidad, comprobantes, recibos.",
+        "Digitalización asegurando legibilidad y cumplimiento de normas.",
+        "Carga y validación en gestores documentales con revisión minuciosa."
+      ]
+    },
+    {
+      "name": "Cyber Café",
+      "position": "Atención al cliente",
+      "url": "",
+      "startDate": "2021-02-01",
+      "endDate": "2021-06-01",
+      "summary": "Soporte al cliente en servicios informáticos y ventas en local comercial.",
+      "highlights": [
+        "Recepción y soporte en uso de computadoras, impresoras y navegación.",
+        "Gestión de tiempos y cobros por servicios.",
+        "Venta de insumos y control de stock mínimo.",
+        "Asesoría básica en Word, Excel, correo y navegación segura."
+      ]
+    },
+    {
+      "name": "Taller mecánico",
+      "position": "Personal de limpieza",
+      "url": "",
+      "startDate": "2021-12-01",
+      "endDate": "2022-03-01",
+      "summary": "Mantenimiento de espacios de trabajo.",
+      "highlights": [
+        "Limpieza y organización de áreas de trabajo.",
+        "Manejo de herramientas de limpieza y desinfección.",
+        "Colaboración con el equipo para mantener un ambiente seguro y ordenado."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Jr",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "Jr",
+      "keywords": []
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": "Jr",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "Jr",
+      "keywords": []
+    },
+    {
+      "name": "Astro",
+      "level": "Jr",
+      "keywords": []
+    }
+  ], 
+    "projects": [
+    {
+      "name": "Portfolio minimalista",
+      "github": "https://github.com/zeta-rpg/CV-Minimalista",
+      "description": "Poner en practica los conocimientos adquiridos en HTML, CSS y Astro.",
+      "highlights": [
+        
+      ]
+    }
+  ]
+}

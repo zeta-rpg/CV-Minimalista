@@ -1,0 +1,10 @@
+---
+import Sections from './Sections/Sections.astro'
+
+import { basics } from '../cv.json'
+const { summary } = basics
+---
+
+<Sections title="About">
+    <p>{summary}</p>
+</Sections>
